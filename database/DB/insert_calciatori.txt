@@ -1,0 +1,565 @@
+
+insert into football_player(name,team,role,quotation,midfielder) values ("Abankwah","Udinese","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Abildgaard","Verona","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Abraham","Roma","A","40","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Acella","Cremonese","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Acerbi","Inter","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Adamonis","Lazio","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Adli","Milan","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Adopo","Torino","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Aebischer","Bologna","C","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Afena-Gyan","Cremonese","A","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Agudelo","Spezia","C","11","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Aina","Torino","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Aiwu","Cremonese","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Akpa-Akpro","Empoli","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Alex Sandro","Juventus","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Alvarez A","Sassuolo","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Amey","Bologna","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Amian","Spezia","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Amione","Sampdoria","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ampadu","Spezia","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Amrabat","Fiorentina","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Anguissa","Napoli","C","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Antov","Monza","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Arnautovic","Bologna","A","20","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Arslan","Udinese","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Askildsen","Lecce","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Asllani","Inter","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Audero","Sampdoria","P","23","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Augello","Sampdoria","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bagnolini","Bologna","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bajrami","Sassuolo","C","10","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bakayoko","Milan","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Baldanzi","Empoli","C","12","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Banda","Lecce","A","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bandinelli","Empoli","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Barak","Fiorentina","C","19","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Barberis","Monza","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bardi","Bologna","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Barella","Inter","C","29","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Barrow","Bologna","A","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Baschirotto","Lecce","D","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Basic","Lazio","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bastoni","Inter","D","18","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bastoni S","Spezia","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bayeye","Torino","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Becao","Udinese","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Beck","Spezia","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bellanova","Inter","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Belotti","Roma","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Benassi","Cremonese","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bennacer","Milan","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Berardi","Sassuolo","A","29","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Berardi A","Verona","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bereszynski","Napoli","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Berisha E","Torino","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Beto","Udinese","A","23","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bianchetti","Cremonese","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bianco A","Fiorentina","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bijol","Udinese","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Biraghi","Fiorentina","D","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Birindelli","Monza","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bleve","Lecce","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Blin","Lecce","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Boer","Roma","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Boga","Atalanta","A","13","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bohinen","Salernitana","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bonaventura","Fiorentina","C","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bonazzoli","Salernitana","A","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bonifazi","Bologna","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bonucci","Juventus","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Botheim","Salernitana","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bourabia","Spezia","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bove","Roma","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Braaf","Verona","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bradaric D","Salernitana","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Brancolini","Lecce","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Brekalo","Fiorentina","C","8","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bremer","Juventus","D","22","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Bronn","Salernitana","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Brozovic","Inter","C","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Buonaiuto","Cremonese","C","7","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Buongiorno","Torino","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Buta","Udinese","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cabal","Verona","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cabral A","Fiorentina","A","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cacace","Empoli","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Calabria","Milan","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Caldara","Spezia","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Caldirola","Monza","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Calhanoglu","Inter","C","31","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Camara","Monza","C","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Camara M","Roma","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cambiaghi","Empoli","A","11","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cambiaso","Bologna","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cancellieri","Lazio","A","6","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Candreva","Salernitana","C","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Caprari","Monza","A","23","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Caputo","Empoli","A","14","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Carboni F","Monza","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Carboni V","Inter","C","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Carlos Augusto","Monza","D","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Carnesecchi","Cremonese","P","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Casale","Lazio","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cassandro","Lecce","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Castagnetti","Cremonese","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Castrovilli","Fiorentina","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cataldi","Lazio","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Caviglia","Salernitana","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ceccaroni","Lecce","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ceccherini","Verona","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ceesay","Lecce","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ceide","Sassuolo","A","5","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Celik","Roma","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cerofolini","Fiorentina","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Chiesa","Juventus","C","14","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Chiriches","Cremonese","D","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ciezkowski","Cremonese","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ciofani","Cremonese","A","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cipot","Spezia","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ciurria","Monza","A","13","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Colombo","Lecce","A","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Colpani","Monza","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Consigli","Sassuolo","P","21","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Conti","Sampdoria","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Coppola D","Verona","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cordaz","Inter","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Correa","Inter","A","14","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Coulibaly L","Salernitana","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cragno","Monza","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cristante","Roma","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Crnigoj","Salernitana","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cuadrado","Juventus","D","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Cuisance","Sampdoria","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("D'Andrea","Sassuolo","A","5","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("D'alessandro","Monza","C","8","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("D'ambrosio","Inter","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Da Graca","Juventus","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dalbert","Inter","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Daniliuc","Salernitana","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Danilo L","Juventus","D","22","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Darboe","Roma","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Darmian","Inter","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dawidowicz","Verona","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Ketelaere","Milan","C","14","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Luca","Sampdoria","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Nipoti","Atalanta","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Roon","Atalanta","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Sciglio","Juventus","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Silvestri","Bologna","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Vrij","Inter","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("De Winter","Empoli","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Defrel","Sassuolo","A","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Degli Innocenti","Empoli","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Demiral","Atalanta","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Demme","Napoli","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Depaoli","Verona","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dermaku","Lecce","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dessers","Cremonese","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dest","Milan","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Destro","Empoli","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Deulofeu","Udinese","A","21","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Di Francesco F","Lecce","A","12","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Di Gregorio","Monza","P","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Di Lorenzo","Napoli","D","25","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Di Maria","Juventus","C","21","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dia","Salernitana","A","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Diaz B","Milan","C","15","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dimarco","Inter","D","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Distefano","Fiorentina","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Djidji","Torino","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Djimsiti","Atalanta","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Djuric","Verona","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Djuricic","Sampdoria","C","7","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dodo D","Fiorentina","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Doig","Verona","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dominguez","Bologna","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Donati G","Monza","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dragowski","Spezia","P","14","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Duda","Verona","C","5","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dumfries","Inter","D","20","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Duncan","Fiorentina","C","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dybala","Roma","A","28","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Dzeko","Inter","A","28","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ebosele","Udinese","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ebosse","Udinese","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ebuehi","Empoli","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ederson J","Atalanta","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ehizibue","Udinese","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ekdal","Spezia","C","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("El Shaarawy","Roma","A","12","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Elmas","Napoli","C","19","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Erlic","Sassuolo","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Esposito Sa","Spezia","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Fagioli","Juventus","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Falcone","Lecce","P","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Faraoni","Verona","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Fares","Lazio","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Fazio","Salernitana","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Fazzini","Empoli","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Felipe Anderson","Lazio","C","26","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ferguson","Bologna","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ferrari A","Cremonese","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ferrari G","Sassuolo","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ferrer","Spezia","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Fiorillo","Salernitana","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Florenzi","Milan","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Floriani","Lazio","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Frattesi","Sassuolo","C","22","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gabbia","Milan","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gabbiadini","Sampdoria","A","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gaetano","Napoli","C","7","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gagliardini","Inter","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gaich","Verona","A","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Galdames","Cremonese","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Galeotafiore","Salernitana","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gallo","Lecce","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gatti","Juventus","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gemello","Torino","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gendrey","Lecce","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gentile","Fiorentina","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ghiglione","Cremonese","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gila","Lazio","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gineitis","Torino","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Giroud","Milan","A","28","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gollini","Napoli","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gonzalez D","Lazio","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gonzalez J","Lecce","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gonzalez N","Fiorentina","C","15","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gosens","Inter","D","14","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Grassi","Empoli","C","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gravillon","Torino","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gunter","Sampdoria","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gyasi","Spezia","A","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gyomber","Salernitana","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Gytkjaer","Monza","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Haas","Empoli","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Handanovic","Inter","P","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Harroui","Sassuolo","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hateboer","Atalanta","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Helgason","Lecce","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Henderson","Empoli","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Henrique M","Sassuolo","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Henry","Verona","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hernandez T","Milan","D","21","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hien","Verona","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hjulmand","Lecce","C","14","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hojlund","Atalanta","A","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Holm","Spezia","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hrustic","Verona","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Hysaj","Lazio","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ibanez","Roma","D","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ibrahimovic","Milan","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Idasiak","Napoli","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Igor","Fiorentina","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ikone","Fiorentina","C","12","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ilic","Torino","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Iling-Junior","Juventus","A","2","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ilkhan","Sampdoria","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Immobile","Lazio","A","37","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ismajli","Empoli","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Izzo","Monza","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("J Rodriguez","Sampdoria","A","3","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Jovic","Fiorentina","A","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Juan Jesus","Napoli","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kaczmarski","Empoli","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kaio Jorge","Juventus","A","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kallon","Verona","A","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kalulu","Milan","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Karamoh","Torino","A","8","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Karsdorp","Roma","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kastanos","Salernitana","C","6","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kean","Juventus","A","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Keramitsis","Roma","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kim","Napoli","D","24","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kjaer","Milan","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Koopmeiners","Atalanta","C","23","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kostic","Juventus","C","23","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kouame","Fiorentina","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kovalenko","Spezia","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Krollis","Spezia","A","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Krunic","Milan","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kumbulla","Roma","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kvaratskhelia","Napoli","A","28","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Kyriakopoulos","Bologna","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lamanna","Monza","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lammers","Sampdoria","A","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lasagna","Verona","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lauriente'","Sassuolo","A","18","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lazaro","Torino","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lazovic","Verona","C","18","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lazzari M","Lazio","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Leao","Milan","A","33","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lemmens","Lecce","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Leris","Sampdoria","C","3","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Linetty","Torino","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Llorente D","Roma","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lobotka","Napoli","C","17","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Locatelli M","Juventus","C","14","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lochoshvili","Cremonese","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lookman","Atalanta","A","26","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lopez M","Sassuolo","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lovato","Salernitana","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lovric","Udinese","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lozano","Napoli","A","18","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lucumi","Bologna","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Luis Alberto","Lazio","C","24","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lukaku R","Inter","A","20","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Luperto","Empoli","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Lykogiannis","Bologna","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Machin","Monza","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maehle","Atalanta","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maggiore","Salernitana","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Magnani","Verona","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maignan","Milan","P","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Malagrida","Sampdoria","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maldini D","Spezia","C","4","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maleh","Lecce","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mancini","Roma","D","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mandragora","Fiorentina","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marchetti","Spezia","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marchizza","Sassuolo","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marcos Antonio","Lazio","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marfella","Napoli","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mari","Monza","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maric","Monza","A","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marin R","Empoli","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mario Rui","Napoli","D","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marlon","Monza","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marrone","Monza","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Martinez L","Inter","A","44","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Martinez Q","Fiorentina","D","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Marusic","Lazio","D","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Masina","Udinese","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mathias Olivera","Napoli","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Matic","Roma","C","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Maximiano","Lazio","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mazzocchi","Salernitana","D","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Medel","Bologna","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Meite","Cremonese","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Meret","Napoli","P","25","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Messias","Milan","C","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Miguel Veloso","Verona","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Milenkovic","Fiorentina","D","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Milik","Juventus","A","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Milinkovic-Savic","Lazio","C","34","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Milinkovic-Savic V","Torino","P","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Miranchuk","Torino","C","18","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mirante","Milan","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Miretti","Juventus","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Missori","Roma","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mkhitaryan","Inter","C","12","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Montevago","Sampdoria","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Montipo'","Verona","P","23","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Moro N","Bologna","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Mota","Monza","A","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Moutinho","Spezia","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Muharemovic","Juventus","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Muldur","Sassuolo","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Muratore","Atalanta","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Muriel","Atalanta","A","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Murillo","Sampdoria","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Murru","Sampdoria","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Musso","Atalanta","P","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ndombele","Napoli","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Nestorovski","Udinese","A","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ngonge","Verona","A","4","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Nikolaou","Spezia","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Nuytinck","Sampdoria","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Nzola","Spezia","A","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Obiang","Sassuolo","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ochoa","Salernitana","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Oddei","Sassuolo","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Okereke","Cremonese","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Okoli","Atalanta","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Okwonkwo","Bologna","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Onana","Inter","P","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Origi","Milan","A","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Orsolini","Bologna","C","19","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Osimhen","Napoli","A","43","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ostigard","Napoli","D","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Oudin","Lecce","A","6","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Padelli","Udinese","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pafundi","Udinese","C","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Paletta","Monza","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Palomino","Atalanta","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Palumbo","Juventus","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Paoletti F","Sampdoria","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Paredes","Juventus","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Parisi F","Empoli","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pasalic","Atalanta","C","27","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Patric","Lazio","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pedro R","Lazio","A","20","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pegolo","Sassuolo","P","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pellegri","Torino","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pellegrini","Roma","C","25","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pellegrini Lu","Lazio","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pereyra","Udinese","C","20","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Perez N","Udinese","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Perilli","Verona","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Perin","Juventus","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Perisan","Empoli","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Persson","Lecce","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pessina","Monza","C","17","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Petagna","Monza","A","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pezzella","Lecce","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Piana","Udinese","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Piatek","Salernitana","A","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Piccoli","Empoli","A","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pickel","Cremonese","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pinamonti","Sassuolo","A","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pinsoglio","Juventus","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pirola","Salernitana","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pjaca","Empoli","A","4","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pobega","Milan","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pogba","Juventus","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Politano","Napoli","C","16","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pongracic","Lecce","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Posch","Bologna","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Provedel","Lazio","P","21","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pussetto","Sampdoria","A","7","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Pyyhtia","Bologna","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Quagliarella","Sampdoria","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Quagliata","Cremonese","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("R Vieira","Torino","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rabiot","Juventus","C","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Radonjic","Torino","C","10","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Radu","Lazio","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Raimondo","Bologna","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ranieri","Fiorentina","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ranocchia F","Monza","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Raspadori","Napoli","A","17","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ravaglia","Sampdoria","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rebic","Milan","A","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Reca","Spezia","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ricci S","Torino","C","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rincon","Sampdoria","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rodriguez R","Torino","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rogerio","Sassuolo","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Romagna","Sassuolo","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Romagnoli A","Lazio","D","14","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Romagnoli S","Lecce","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Romero L","Lazio","C","3","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rossi F","Atalanta","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rovella","Monza","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rrahmani","Napoli","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ruan","Sassuolo","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rugani","Juventus","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ruggeri","Atalanta","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Rui Patricio","Roma","P","22","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Russo Al","Sassuolo","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sabiri","Sampdoria","C","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Saelemaekers","Milan","C","6","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sala","Spezia","C","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Samardzic","Udinese","C","16","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sambia","Salernitana","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Samek","Lecce","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sanabria","Torino","A","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sansone N","Bologna","A","8","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Saponara","Fiorentina","C","13","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Saro","Cremonese","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sarr","Cremonese","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Satriano","Empoli","A","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Scalvini","Atalanta","D","13","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Schouten","Bologna","C","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Schuurs","Torino","D","15","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Seck","Torino","A","5","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Semedo","Udinese","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sensi","Monza","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sepe","Salernitana","P","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sernicola","Cremonese","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Shomurodov","Spezia","A","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Silvestri","Udinese","P","23","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Simeone","Napoli","A","18","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Singo","Torino","D","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sirigu","Fiorentina","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Skorupski","Bologna","P","17","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Skriniar","Inter","D","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Smalling","Roma","D","22","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Solbakken","Roma","C","5","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Soppy","Atalanta","D","6","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Soriano","Bologna","C","10","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sorrentino A","Monza","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sosa J","Bologna","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sottil","Fiorentina","C","9","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Soule","Juventus","A","5","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Soumaoro","Bologna","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Spinazzola","Roma","D","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sportiello","Atalanta","P","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Stivanello","Bologna","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Stojanovic","Empoli","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Strefezza","Lecce","C","24","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Stubljar","Empoli","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Success","Udinese","A","11","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Sulemana","Verona","C","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Svilar","Roma","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Szczesny","Juventus","P","23","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tahirovic","Roma","C","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tameze","Verona","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tatarusanu","Milan","P","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Terracciano","Fiorentina","P","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Terracciano F","Verona","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Terzic","Fiorentina","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Thauvin","Udinese","C","10","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Thiaw","Milan","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Thorstvedt","Sassuolo","C","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Toci","Fiorentina","A","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Toljan","Sassuolo","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Toloi","Atalanta","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tomori","Milan","D","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tonali","Milan","C","22","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tonelli","Empoli","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Toure B","Milan","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Trimboli","Sampdoria","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Troost-Ekong","Salernitana","D","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tsadjout","Cremonese","A","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Tuia","Lecce","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Turicchia","Juventus","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Turk","Sampdoria","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Udogie","Udinese","D","16","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Ujkani","Empoli","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Umtiti","Lecce","D","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Urbanski","Bologna","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Valencia D","Salernitana","A","2","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Valeri","Cremonese","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Valoti","Monza","C","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vasquez","Cremonese","D","3","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vasquez D","Milan","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vecino","Lazio","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Venuti","Fiorentina","D","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Verde","Spezia","A","11","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Verdi","Verona","C","10","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vicario","Empoli","P","25","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vignato","Empoli","C","6","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vignato S","Monza","C","2","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vilhena","Salernitana","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vlahovic","Juventus","A","36","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vlasic","Torino","C","23","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vojvoda","Torino","D","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Volpato C","Roma","C","3","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Vranckx","Milan","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Walace","Udinese","C","10","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Walukiewicz","Empoli","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Weidmann","Torino","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Wijnaldum","Roma","C","9","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Winks","Sampdoria","C","8","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Wisniewski","Spezia","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Yepes G","Sampdoria","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zaccagni","Lazio","C","30","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zalewski","Roma","C","11","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zanoli","Sampdoria","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zanotti","Inter","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zapata D","Atalanta","A","19","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zappacosta","Atalanta","D","12","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zedadka","Napoli","C","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zeefuik","Verona","D","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zerbin","Napoli","A","1","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zielinski","Napoli","C","26","SI
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zima","Torino","D","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zirkzee","Bologna","A","7","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zoet","Spezia","P","4","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zortea","Sassuolo","D","5","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zovko","Spezia","P","1","NO
+");insert into football_player(name,team,role,quotation,midfielder) values ("Zurkowski","Spezia","C","9","NO
+");

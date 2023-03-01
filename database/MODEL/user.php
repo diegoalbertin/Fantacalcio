@@ -19,10 +19,10 @@ class UserCotroller extends BaseController
     }
 
     public function setUser($name,$surname,$email,$psw){
-        $query= "INSERT into user(name, surname,email,psw) values(".$name.",".$surname.",".$email.",".$psw.");";
+        $query= "INSERT into user(name, surname,email,psw) values('$name','$surname','$email','$psw');";
         
         $result=$this->conn->query($query);
-        $this->SendOutput($result, JSON_OK); 
+        return $result;
     }
 
     public function deActiveUser($id){

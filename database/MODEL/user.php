@@ -46,7 +46,7 @@ class UserCotroller extends BaseController
         return $result;
     }
 
-    public function updateUserCredits($credits,$id){
+    public function updateUserCredits($id,$credits){
         $query = "UPDATE user set user.credits = ".$credits." where user.id=".$id.";";
 
         $result = $this->conn->query($query);

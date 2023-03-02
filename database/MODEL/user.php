@@ -68,3 +68,4 @@ class UserCotroller extends BaseController
         return false;
     }
 }
+?>

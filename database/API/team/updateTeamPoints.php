@@ -16,7 +16,7 @@ if (!empty($data) || !empty($data->team_id) || !empty($data->points)) // Se qual
 {
     $team = new TeamCotroller($db);
     var_dump($team->updateTeamPoints($data->team_id, $data->points));
-    echo json_encode(array("Message" => "Created"));
+    echo json_encode(array("Message" => "points updated"));
 }
 else
 {

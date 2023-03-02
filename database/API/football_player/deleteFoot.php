@@ -6,16 +6,16 @@ header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 require("../../COMMON/connect.php");
-require ('../../MODEL/squad.php');
+require ('../../MODEL/football_player.php');
 
 $database = new Database();
 $db = $database->connect(); 
 
 $data = json_decode(file_get_contents("php://input")); // Legge dati dalla request body
-if (!empty($data) || !empty($data->team)|| !empty($data->foot)) // Se qualcosa viene letto
+if (!empty($data) || !empty($data->id)) // Se qualcosa viene letto
 {
-    $squad = new SquadController($db);
-    var_dump($squad->deleteSquad($data->team, $data->foot));
+    $foot = new FootballPlayerController($db);
+    var_dump($foot->deleteFoot($data->id));
     echo json_encode(array("Message" => "Deleted"));
 }
 else

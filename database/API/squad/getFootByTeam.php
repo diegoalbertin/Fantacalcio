@@ -19,8 +19,8 @@ if (empty($id)) {
 $db = new Database();
 $db_conn = $db->connect();
 
-$user = new SquadController($db_conn);
+$squad = new SquadController($db_conn);
 
-$user->getFootByTeam($id);
+$squad->getFootByTeam($id);
 
 ?>

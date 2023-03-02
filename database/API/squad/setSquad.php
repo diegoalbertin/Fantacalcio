@@ -14,8 +14,8 @@ $db = $database->connect();
 $data = json_decode(file_get_contents("php://input")); // Legge dati dalla request body
 if (!empty($data) || !empty($data->team)|| !empty($data->foot)) // Se qualcosa viene letto
 {
-    $user = new SquadController($db);
-    var_dump($user->setSquad($data->team, $data->foot));
+    $squad = new SquadController($db);
+    var_dump($squad->setSquad($data->team, $data->foot));
     echo json_encode(array("Message" => "Created"));
 }
 else

@@ -24,7 +24,7 @@ class DayController extends BaseController
     }
 
     public function setDay($description,$game_date){
-        $query="INSERT INTO day(description ,game_date) values ('$description',".$game_date.");";
+        $query="INSERT INTO day(description ,game_date) values ('$description','$game_date');";
         $result=$this->conn->query($query);
         return $result;
     }

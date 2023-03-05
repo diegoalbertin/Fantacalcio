@@ -18,16 +18,16 @@ class TeamCotroller extends BaseController
     }
 
     public function setTeam($user_id,$name){
-        $query= "INSERT into team(user_id, name) value (".$user_id.",'$name')";
+        $query= "INSERT into team(id_user, name) value (".$user_id.",'$name')";
         $result = $this->conn->query($query);
         return $result;
     }
 
     public function updateTeamPoints($id,$points){
         $query = sprintf("UPDATE team 
-        SET points = %d 
+        SET points = ".$points." 
         WHERE id = %d",
-        $this->conn->real_escape_string($points,$id)
+        $this->conn->real_escape_string($id)
         );
         
         $result = $this->conn->query($query);

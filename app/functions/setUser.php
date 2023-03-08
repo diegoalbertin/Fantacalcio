@@ -1,10 +1,9 @@
 <?php 
 include_once dirname(__FILE__) ."/url.php";
-include_once dirname(__FILE__) ."/login.php";
 
 function setUser($data)
     {
-        $url = getPath().'/API/user/registration.php';
+        $url = getPath().'/API/user/setUser.php';
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_URL, $url); // setta l'url
         curl_setopt($curl, CURLOPT_POST, true); // specifica che è una post request
@@ -24,21 +23,7 @@ function setUser($data)
 
         curl_close($curl);
 
-        $response = json_decode($responseJson);
 
-        var_dump((array)$response);
-
-        if ($response->response == true)
-        {
-            
-            $_SESSION['user_id'] = $response->userID;
-            var_dump($_SESSION);
-            header('Location: index.php');
-        }
-        else
-        {
-            return -1;
-        }
     }
 
 ?>

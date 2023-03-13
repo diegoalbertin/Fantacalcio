@@ -3,7 +3,7 @@ require("base.php");
 class UserCotroller extends BaseController
 {
     public function getArchiveUser(){
-        $query= "SELECT DISTINCT * FROM user;";
+        $query= "SELECT DISTINCT * FROM user order by id asc;";
 
         $result=$this->conn->query($query);
         $this->SendOutput($result, JSON_OK);
@@ -55,7 +55,7 @@ class UserCotroller extends BaseController
 
     public function login($email, $password)
     {
-        $sql = sprintf("SELECT email, password, id
+        $sql = sprintf("SELECT email, psw, id
         FROM `user`
         where 1=1 ");
         $result = $this->conn->query($sql);

@@ -3,7 +3,14 @@ require("base.php");
 class TeamCotroller extends BaseController
 {
     public function getArchiveTeam(){
-        $query= "SELECT DISTINCT * FROM team;";
+        $query= "SELECT DISTINCT * FROM team order by id;";
+
+        $result=$this->conn->query($query);
+        $this->SendOutput($result, JSON_OK);
+    }
+
+    public function getStandings(){
+        $query= "SELECT DISTINCT * FROM team ORDER BY points desc;";
 
         $result=$this->conn->query($query);
         $this->SendOutput($result, JSON_OK);
@@ -13,6 +20,13 @@ class TeamCotroller extends BaseController
         $query = "SELECT DISTINCT * from team t
                   where t.id=".$id.";";
 
+        $result=$this->conn->query($query);
+        $this->SendOutput($result, JSON_OK);         
+    }
+
+    public function getTeamByUser($id){
+        $query = "SELECT DISTINCT id from team t
+                  where t.id_user=".$id.";";
         $result=$this->conn->query($query);
         $this->SendOutput($result, JSON_OK);         
     }

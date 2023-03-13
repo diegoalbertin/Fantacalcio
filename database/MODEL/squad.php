@@ -8,14 +8,21 @@ class SquadController extends BaseController
         $this->SendOutput($result, JSON_OK);
     } 
 
-    public function getFootByTeam($id_team){
+    public function getFootIdByTeam($id_team){
         $query="SELECT DISTINCT id_foot  from squad 
                 where squad.id_team =".$id_team." ;";
         $result=$this->conn->query($query);
         $this->SendOutput($result, JSON_OK);
     }
 
-    public function getTeamByFoot($id_foot){
+    public function getFootByTeam($id_team){
+        $query="SELECT * from football_player fp
+                inner join squad s on fp.id = s.id_foot and s.id_team =".$id_team.";";
+        $result=$this->conn->query($query);
+        $this->SendOutput($result, JSON_OK);
+    }
+
+    public function getTeamIdByFoot($id_foot){
         $query="SELECT DISTINCT id_team  from squad 
                 where squad.id_foot =".$id_foot." ;";
         $result=$this->conn->query($query);

@@ -1,4 +1,4 @@
 function getPath(){
-    var pathToApi = "http://localhost/Progetto-panini-utente/food-api";
+    var pathToApi = "http://localhost/fantacalcio/database/";
     return pathToApi;
 }

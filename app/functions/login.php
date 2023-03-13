@@ -3,7 +3,7 @@ include_once dirname(__FILE__) ."/url.php";
 
 function login($data)
     {
-        $url = getPath().'/API/user/login.php';
+        $url = getPath().'API/user/login.php';
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_URL, $url); // setta l'url
         curl_setopt($curl, CURLOPT_POST, true); // specifica che è una post request
@@ -14,7 +14,6 @@ function login($data)
             "Content-Lenght: 0",
         );
 
-
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers); // setta gli headers della request
 
         curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
@@ -24,7 +23,7 @@ function login($data)
         curl_close($curl);
 
         $response = json_decode($responseJson);
-        
+
         if ($response->response == true)
         {
             $_SESSION['user_id'] = $response->userID;

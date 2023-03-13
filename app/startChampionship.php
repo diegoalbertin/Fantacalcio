@@ -6,10 +6,7 @@ include_once dirname(__DIR__) . '/app/functions/setUser.php';
 session_start();
 
 //session_unset();
-//print_r($_SESSION);
-//$_SESSION["data"]="a";
 
-//var_dump($_SESSION["data"]);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -24,11 +21,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 "email" => $_POST['email'],
                 "psw" =>hash("sha256", $_POST['psw']),
                 ];
-                $pippo= array(
+                $array= array(
                     "data"=> $data,
                     "id-user"=>$_SESSION["n-user"],
                     "team-name"=>$_POST['team-name']);
-                $_SESSION["data"][]=$pippo;
+                $_SESSION["data"][]=$array;
                 $_SESSION["n-user"] =intval($_SESSION["n-user"])+1;        
             }
             else
@@ -52,6 +49,7 @@ if($_SESSION["n-user"]>$_SESSION["totalUser"]){
 
     }
     echo '<script>alert("utenti e squadra creati")</script>';
+    session_unset();
     header("Location:index.php");
 }
 ?>
@@ -61,7 +59,7 @@ if($_SESSION["n-user"]>$_SESSION["totalUser"]){
   <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../app/static/main.css">
+        <link rel="stylesheet" href="../app/static/css/main.css">
         <title>sandwech</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     </head>
@@ -90,7 +88,7 @@ if($_SESSION["n-user"]>$_SESSION["totalUser"]){
         <?php }?>
         <div class="row">
                 <div class="form-container bordered rounded col-8 offset-2">
-                    <form class="text-center" method="post" onsubmit="stopRefresh(event);" name="form-user" action="">
+                    <form class="text-center" method="post" name="form-user" action="">
                         <div class="row">
                             <label class="bold" for="text">user-<?php if(isset($_SESSION["n-user"])){
                                 echo($_SESSION["n-user"]);}?></label>
@@ -116,19 +114,7 @@ if($_SESSION["n-user"]>$_SESSION["totalUser"]){
                             </div>
                     </form>
                 </div>
-            </div> 
-        <script>
-            function hideShow(){
-                const elem = document.getElementById('addToCart');
-                console.log(elem.style.display);
-
-                if(elem.style.display=='none!important'||elem.style.display=='none'){
-                    elem.style.display='block';
-                }else if(elem.style.display=='block'){
-                    elem.style.display='none';  
-                }
-            }
-        </script>    
+            </div>     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     </body>

@@ -101,3 +101,17 @@ height: auto!important;
     padding-top: 20px!important;
 
 }
+
+.box-selectedFoot{
+    background-color: #9dd8e2;
+    min-height:30px;
+    margin-top:15px!important;
+}
+
+.hideShow{
+    background-color: #DCDCDC!important;
+}
+
+.footList{
+    margin-top:15px!important;
+}

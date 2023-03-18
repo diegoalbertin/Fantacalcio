@@ -49,7 +49,9 @@ if($_SESSION["n-user"]>$_SESSION["totalUser"]){
 
     }
     echo '<script>alert("utenti e squadra creati")</script>';
-    session_unset();
+    unset($_SESSION['data']);
+    unset($_SESSION["n-user"]);
+    unset($_SESSION["totalUser"]);
     header("Location:index.php");
 }
 ?>

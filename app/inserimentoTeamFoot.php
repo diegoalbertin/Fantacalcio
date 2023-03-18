@@ -1,34 +1,48 @@
 <?php
 include_once dirname(__FILE__) . '/functions/checkLogin.php';
 include_once dirname(__FILE__) . '/functions/getStandings.php';
+include_once dirname(__FILE__) . '/functions/getArchiveUser.php';
 include_once dirname(__FILE__) . '/functions/getArchiveTeam.php';
 include_once dirname(__FILE__) . '/functions/getArchiveFoot.php';
 include_once dirname(__FILE__) . '/functions/getTeam.php';
+include_once dirname(__FILE__) . '/functions/setSquad.php';
 
 session_start();
 
-if(isset($_SESSION['data']))
-unset($_SESSION['data']);
-
-$_SESSION['user_id']=4;
 $user = checkLogin();
-$team=getArchiveTeam();
-$foot=getArchiveFoot();
-$_SESSION['n-team']=0;
-$_SESSION['totalTeam']=count($team);
+$totalUser=getArchiveUser();
 
+if($_SESSION['user_id']!=$totalUser[0]->id){
+    echo '<script>alert("sezione privata")</script>';
+    header("Location:index.php");
+}
+
+$ArchiveTeam=getArchiveTeam();
+
+$foot=getArchiveFoot();
+
+if(!isset($_SESSION['n-team'])){
+$_SESSION['n-team']=0;}
+
+$_SESSION['totalTeam']=count($ArchiveTeam);
+//gesttione delle post request
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (isset($_POST['create'])) {
-        echo "a";
-        if($_SESSION["n-team"]<=$_SESSION["totalTeam"]){
 
-            if(count($_POST['foot'])!=15){
-                $data= array(
-                    "foot_id"=> $_POST['foot'],
-                    "id-user"=>$_SESSION["n-team"]);
+        if($_SESSION["n-team"]<$_SESSION["totalTeam"]){
+
+            if(count($_POST['foot'])==3){
+                $data=array();
+
+                foreach($_POST['foot'] as $f){
+                    $p = array(
+                        "team"=>$ArchiveTeam[$_SESSION['n-team']]->id,
+                        "foot"=> $f,
+                    ); 
+                    array_push($data,$p);
+                }
                 $_SESSION["data"][]=$data;
-                var_dump($_SESSION["data"]);
                 $_SESSION["n-team"] =intval($_SESSION["n-team"])+1;       
             }
             else
@@ -37,9 +51,45 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             }
         }
         else if($_SESSION["n-team"]==$_SESSION["totalTeam"]){
-            
+            foreach($_SESSION["data"] as $sesh){
+                setSquad($sesh['data']);
+            }
+            echo '<script>alert("calciatori aggiunti alle squadra ")</script>';
+            unset($_SESSION['data']);
+            unset($_SESSION["n-team"]);
+            unset($_SESSION["totalTeam"]);
+            header("Location:index.php");
         }
     }
+}
+function displayFoot($foot){ //elimina i giocatori già selezionati
+    if(isset($foot)){
+        $unselectedFoot=array();
+
+        foreach($foot as $f){
+            $ctr = 1;
+            foreach($_SESSION["data"] as $sesh){
+
+                foreach($sesh as $ses){
+
+                    if(intval($f->id)==intval($ses['foot'])){
+                        $ctr = 0;
+                    }
+                }
+            }
+            if($ctr==1){
+                array_push($unselectedFoot,$f);
+            }
+            else{
+                //var_dump($f);
+            }
+        }
+        return $unselectedFoot;
+    }
+
+}
+if(isset($_SESSION['data'])){
+$foot=displayFoot($foot);
 }
 ?>
 
@@ -47,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 
     <head>
-        <title>Login</title>
+        <title>fantacalcio</title>
         <link rel="stylesheet" href="static/css/main.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
@@ -67,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <form class="text-center" method="post" name="form-team" action="">
                             <div class="row">
                                 <h1>team-<?php if(isset($_SESSION["n-team"])){
-                                    echo $team[intval($_SESSION['n-team'])]->name;}?></h1>
+                                    echo $ArchiveTeam[intval($_SESSION['n-team'])]->name;}?></h1>
                                 <input type="submit" class="submit rounded col-2 offset-5" style="background-color:#989898;" onclick="checkPlayerNumber(event)" name="create" value="crea">
 
                                 <div class="text-center">
@@ -157,7 +207,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         function updateDisplay() {
-        if(count()==15){
+        if(count()==3){
             disable_cb();
             submit[0].style.backgroundColor = '#DCDCDC';
 
@@ -192,7 +242,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         function checkPlayerNumber(e){
-            if(count()!=15){
+            if(count()!=3){
                 e.preventDefault();
             }
         }

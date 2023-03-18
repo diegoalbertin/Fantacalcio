@@ -3,9 +3,9 @@
 include_once dirname(__DIR__) . '/app/functions/getArchiveUser.php';
 include_once dirname(__DIR__) . '/app/functions/setTeam.php';
 include_once dirname(__DIR__) . '/app/functions/setUser.php';
-session_start();
+include_once dirname(__FILE__) . '/functions/generateGame.php';
 
-//session_unset();
+session_start();
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -46,12 +46,12 @@ if($_SESSION["n-user"]>$_SESSION["totalUser"]){
         $archiveUser=getArchiveUser();
         $lastInsert=end($archiveUser);
         setTeam($sesh["team-name"],$lastInsert->id);
-
     }
     echo '<script>alert("utenti e squadra creati")</script>';
     unset($_SESSION['data']);
     unset($_SESSION["n-user"]);
     unset($_SESSION["totalUser"]);
+    generateGame();
     header("Location:index.php");
 }
 ?>

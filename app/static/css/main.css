@@ -115,3 +115,20 @@ height: auto!important;
 .footList{
     margin-top:15px!important;
 }
+.border-solid{
+    border-style: solid;
+    border-width:2px;
+    border-color: black; 
+}
+
+.standings-container,.standings-title,.warning-container{
+    margin-top:30px!important;
+}
+.warning-container{
+    background-color: #eed202;
+    text-decoration: none;
+}
+.txt-decoration-none{
+    text-decoration: none!important;
+    color:black;
+}

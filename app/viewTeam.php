@@ -31,10 +31,10 @@ $footballPlayers=getFootByTeam($_SESSION['team_id']);
                         <th>ruolo</th>
                     </thead>
                     <tbody>
-                        <?php foreach($footballPlayers as $s){?>
+                        <?php foreach($footballPlayers as $f){?>
                             <tr>
-                                <th scope="row"><?php echo $s->name;?></th>
-                                <td><?php echo $s->role;?></td>
+                                <th scope="row"><?php echo $f->name;?></th>
+                                <td><?php echo $f->role;?></td>
                             </tr>
                         <?php }?>
                     </tbody>

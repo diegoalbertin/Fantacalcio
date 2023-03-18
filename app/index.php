@@ -1,8 +1,14 @@
 <?php
 include_once dirname(__FILE__) . '/functions/checkLogin.php';
 include_once dirname(__FILE__) . '/functions/getStandings.php';
+include_once dirname(__FILE__) . '/functions/getArchiveUser.php';
+include_once dirname(__FILE__) . '/functions/getArchiveSquad.php';
 
 session_start();
+$archiveUser=getArchiveUser();
+if(empty($archiveUser)){
+    header('Location: startChampionship.php');
+}
 $user = checkLogin();
 $standings = getStandings();
 
@@ -57,16 +63,36 @@ $standings = getStandings();
                 </div>
             </nav>
         </div>
-                <?php foreach($standings as $s){?>
+
+        <?php if($_SESSION['user_id']==$archiveUser[0]->id){
+                $archiveSquad=getArchiveSquad();
+                if(empty($archiveSquad)){?>
+                <div class=row>
+                    <div class="warning-container text-center">
+                        <a class="txt-decoration-none" href="insertTeamFoot.php">!!! inserisci i giocatori delle squadre !!!</a>
+                    </div>
+                </div>
+            <?php } }?>
         <div class="row">
-            <div>
-                <?php echo $s->name;?>
+            <div class="standings-title form-element text-center">
+                <h1>Classifica</h1>
             </div>
-            <div>
-                <?php echo $s->points;?>
+            <div class="standings-container border-solid rounded col-6 offset-3" >
+                <table class="table text-center" style="border-radius: 10px;">
+                    <thead >
+                        <th>nome</th>
+                        <th>ruolo</th>
+                    </thead>
+                    <tbody>
+                    <?php foreach($standings as $s){?>
+                            <tr>
+                                <td scope="row"><?php echo $s->name;?></td>
+                                <td><?php echo $s->points;?></td>
+                            </tr>
+                        <?php }?>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <?php }?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </div>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

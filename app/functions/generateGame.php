@@ -8,8 +8,8 @@ include_once dirname(__FILE__) . '/setGame.php';
 function generateGame(){
 	$archiveGame=getArchiveGame();
 	if(empty($archiveGame)){
-		exit("dati già inseriti");
 		header('Location: index.php');
+		exit("dati già inseriti");
 	}
 
 	//get delle squadre e salvataggio degli id
